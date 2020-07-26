@@ -1,21 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <link rel="icon" href="/favicon.ico"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="theme-color" content="#000000"/>
-    <meta name="description" content="Web site created using create-react-app"/>
-    <link rel="apple-touch-icon" href="/logo192.png"/>
-    <link rel="manifest" href="/manifest.json"/>
-    <title>React App</title>
-    <link href="/static/css/2.c4587cfe.chunk.css" rel="stylesheet">
-    <link href="/static/css/main.266173d9.chunk.css" rel="stylesheet">
-</head>
-<body>
-<noscript>You need to enable JavaScript to run this app.</noscript>
-<div id="root"></div>
-<script>!function (e) {
+var scriptElm = document.createElement('script');
+scriptElm.src = '/static/js/2.b5d01e3b.chunk.js';
+document.body.appendChild(scriptElm);
+
+var scriptElm1 = document.createElement('script');
+scriptElm1.src = '/static/js/main.f5287dc9.chunk.js';
+document.body.appendChild(scriptElm1);
+
+
+var scriptElm2 = document.createElement('link');
+scriptElm2.href = '/static/css/2.c4587cfe.chunk.css';
+scriptElm2.rel = 'stylesheet';
+document.body.appendChild(scriptElm2);
+
+var scriptElm3 = document.createElement('link');
+scriptElm3.href = '/static/css/main.266173d9.chunk.css';
+scriptElm3.rel = 'stylesheet';
+document.body.appendChild(scriptElm3);
+
+!function (e) {
     function t(t) {
         for (var n, i, l = t[0], a = t[1], p = t[2], c = 0, s = []; c < l.length; c++) i = l[c], Object.prototype.hasOwnProperty.call(o, i) && o[i] && s.push(o[i][0]), o[i] = 0;
         for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]);
@@ -72,8 +74,4 @@
     for (var p = 0; p < l.length; p++) t(l[p]);
     var f = a;
     r()
-}([])</script>
-<script src="/static/js/2.b5d01e3b.chunk.js"></script>
-<script src="/static/js/main.f5287dc9.chunk.js"></script>
-</body>
-</html>
+}([]);
