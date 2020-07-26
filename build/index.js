@@ -1,19 +1,19 @@
 var scriptElm = document.createElement('script');
-scriptElm.src = '/static/js/2.b5d01e3b.chunk.js';
+scriptElm.src = 'https://raw.githubusercontent.com/akagadovskiy/callback-static-test/master/build/static/js/2.b5d01e3b.chunk.js';
 document.body.appendChild(scriptElm);
 
 var scriptElm1 = document.createElement('script');
-scriptElm1.src = '/static/js/main.f5287dc9.chunk.js';
+scriptElm1.src = 'https://raw.githubusercontent.com/akagadovskiy/callback-static-test/master/build/static/js/main.f5287dc9.chunk.js';
 document.body.appendChild(scriptElm1);
 
 
 var scriptElm2 = document.createElement('link');
-scriptElm2.href = '/static/css/2.c4587cfe.chunk.css';
+scriptElm2.href = 'https://raw.githubusercontent.com/akagadovskiy/callback-static-test/master/build/static/css/2.c4587cfe.chunk.css';
 scriptElm2.rel = 'stylesheet';
 document.body.appendChild(scriptElm2);
 
 var scriptElm3 = document.createElement('link');
-scriptElm3.href = '/static/css/main.266173d9.chunk.css';
+scriptElm3.href = 'https://raw.githubusercontent.com/akagadovskiy/callback-static-test/master/build/static/css/main.266173d9.chunk.css';
 scriptElm3.rel = 'stylesheet';
 document.body.appendChild(scriptElm3);
 
